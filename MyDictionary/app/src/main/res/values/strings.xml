@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Dictionary</string>
+    <string name="definitions">Definition</string>
+    <string name="word">Word</string>
+    <string name="lexicalCategory">LexicalCategory</string>
+    <string name="domains">Domain</string>
+
+    <string-array name="langArray">
+        <item>en</item>
+        <item>nso</item>
+        <item>ro</item>
+        <item>ms</item>
+        <item>zu</item>
+        <item>id</item>
+        <item>tn</item>
+        <item>pt</item>
+    </string-array>
+</resources>

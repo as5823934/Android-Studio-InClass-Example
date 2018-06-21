@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Gainsboro"
+    android:orientation="vertical"
+    tools:context="com.example.huntertsai.mydictionary.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal">
+
+        <!--<Spinner-->
+        <!--android:id="@+id/langSpin"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:entries="@array/langArray">-->
+
+        <!--</Spinner>-->
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        app:cardElevation="8dp"
+        card_view:cardCornerRadius="20dp">
+
+        <SearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:iconifiedByDefault="false"
+            android:queryHint="search"></SearchView>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginBottom="10dp"
+        app:cardElevation="8dp"
+        card_view:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="330dp"
+            android:layout_height="365dp">
+
+            <TextView
+                android:id="@+id/word"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:paddingLeft="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/lexicalCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/word"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="serif"
+                android:paddingLeft="20dp"
+                android:textColor="@color/Red"
+                android:textSize="15dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/etymologies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lexicalCategory"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="serif"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/DarkGray"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/definition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etymologies"
+                android:fontFamily="serif"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/Black"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/word_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/gallery"
+                android:onClick="search_img" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/White"
+        android:gravity="bottom|center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/audio"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/speaker"
+            android:onClick="playAudio" />
+
+        <Button
+            android:id="@+id/bookpage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/book"
+            android:onClick="toBookMark" />
+
+        <Button
+            android:id="@+id/saveWord"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/valentines_heart"
+            android:onClick="addWord" />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/tosearch"
+            android:onClick="searchClicked" />
+
+    </LinearLayout>
+
+</LinearLayout>

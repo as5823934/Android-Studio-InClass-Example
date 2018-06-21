@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Locatizional</string>
+    <string name="first">あなたの息がきれいできれいで清潔であることを確認してください。</string>
+    <string name="second">自信を持ってキスにアプローチする。</string>
+    <string name="third">気分を設定します。</string>
+    <string name="fourth">傾けて頭を少し傾ける。</string>
+    <string name="five">ゆっくりと始める。</string>
+    <string name="button1">いいね</string>
+    <string name="button2">それを憎む</string>
+</resources>

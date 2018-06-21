@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.huntertsai.moviewithoutfragment.DetailActivity">
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/detail_img"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:scaleType="center"-->
+        <!--android:layout_marginBottom="20dp"-->
+        <!--android:src="@drawable/the_godfather"/>-->
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/detail_text"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:paddingHorizontal="20dp"-->
+            <!--android:textSize="18sp"-->
+            <!--android:text="this is text area"/>-->
+    <!--</ScrollView>-->
+
+    <fragment
+        android:id="@+id/detail_frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.huntertsai.moviewithoutfragment.DetailFragment"
+        tools:layout="@layout/fragment_detail"/>
+
+</LinearLayout>

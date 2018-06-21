@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.huntertsai.cardpairgame.WelcomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pair Game"
+        android:textColor="#ffffff"
+        android:textSize="40dp"/>
+    <Button
+        android:id="@+id/easy_Btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Easy Mode"
+        android:onClick="toEasyPage"/>
+    <Button
+        android:id="@+id/hard_Btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Hard Mode"
+        android:onClick="toHardPage"/>
+
+    <Button
+        android:id="@+id/hell_Btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Hell Mode"
+        android:onClick="toHellPage"/>
+
+</LinearLayout>

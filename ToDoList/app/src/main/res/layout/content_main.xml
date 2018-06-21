@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.huntertsai.todolist.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/todo_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+
+</LinearLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/swipe_layout"-->
+    <!--android:orientation="vertical"-->
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+    <!--tools:context="com.example.huntertsai.todolist.MainActivity"-->
+    <!--tools:showIn="@layout/activity_main">-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/bottom_wrapper"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="#66ddff00">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/edit_query"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--app:srcCompat="@android:drawable/ic_menu_edit"/>-->
+    <!--</RelativeLayout>-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="#66FF3300">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/delete"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--app:srcCompat="@android:drawable/ic_menu_delete" />-->
+    <!--</RelativeLayout>-->
+
+
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<ListView-->
+    <!--android:id="@+id/todo_list"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--</ListView>-->
+
+
+    <!--</LinearLayout>-->
+
+
+    <!--&lt;!&ndash;<com.baoyz.swipemenulistview.SwipeMenuListView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/todo_list"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="match_parent" />&ndash;&gt;-->
+
+
+    <!--</com.daimajia.swipe.SwipeLayout>-->

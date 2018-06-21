@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Locatizional</string>
+    <string name="first">Make sure your breath is minty fresh and clean.</string>
+    <string name="second">Approach the kiss with confidence.</string>
+    <string name="third">Set the mood.</string>
+    <string name="fourth">Lean in and tilt your head slightly.</string>
+    <string name="five">Start slowly.</string>
+    <string name="button1">Like It</string>
+    <string name="button2">Hate It</string>
+</resources>

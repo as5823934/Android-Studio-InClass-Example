@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_clipart"
+    tools:context="com.example.huntertsai.mydictionary.BookMarkActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        app:cardElevation="8dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="3dp"
+        card_view:cardCornerRadius="20dp">
+    <ListView
+        android:id="@+id/bookList"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:listSelector="@color/Bisque"
+        android:divider="@color/Brown"
+        android:dividerHeight="2.0sp">
+
+    </ListView>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back"
+        android:onClick="Back"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center|bottom"/>
+</LinearLayout>
+
+
+
+</LinearLayout>
